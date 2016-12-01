@@ -32,7 +32,7 @@ body {
 }
 
 h2 {
-	font-weight: 700;
+	font-weight: 300;
 	font-size: 30px;
 	line-height: 125%;
 	padding-bottom: 10px;
@@ -43,10 +43,27 @@ h2 {
 	color: rgb(194,31,60);
 }
 
-.fiftyyears, .staff, .drr {
+.textsection {
 	color: rgb(88,89,91);
 	font-size: 15px;
 	font-weight: 600;
-	line-height: 135%;
-	padding: 25px 15px 25px 36px;
+	line-height: 150%;
+	padding: 35px 15px 35px 55px;
 }
+
+.icon {
+	display: inline-block;
+	width: 15%;
+	vertical-align: middle;
+	padding-left:2%;
+	padding-right: 3%;
+}
+
+.fiftyyears, .staff {
+	display:inline-block;
+	width: 65%;
+	vertical-align: middle;
+}
+
+
+
