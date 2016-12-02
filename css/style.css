@@ -36,7 +36,7 @@ h2 {
 	font-size: 30px;
 	line-height: 125%;
 	padding-bottom: 10px;
-	letter-spacing: 2px;
+	letter-spacing: 1.5px;
 }
 
 .fiftyyears h2 {
@@ -45,10 +45,11 @@ h2 {
 
 .textsection {
 	color: rgb(88,89,91);
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: 600;
 	line-height: 150%;
 	padding: 35px 15px 35px 55px;
+	margin: 0 auto;
 }
 
 .icon {
@@ -59,11 +60,44 @@ h2 {
 	padding-right: 3%;
 }
 
-.fiftyyears, .staff {
+.fiftyyears, .staff, .drr, .social {
 	display:inline-block;
 	width: 65%;
 	vertical-align: middle;
 }
+
+.staff h2{
+	color: rgb(232,149,0);
+}
+
+.drr h2{
+	color: rgb(22,176,193);
+}
+
+.socialnav img {
+	display: inline-block;
+	width: 10%;
+	vertical-align: middle;
+	padding-left:1%;
+	margin: 0 auto;
+}
+
+.socialnav{
+	text-align: center;
+}
+
+footer {
+	background-color: rgb(236,236,236); 
+	padding: 35px 0px;
+	text-align: center;
+}
+
+footer h2 {
+	font-weight: 700;
+	font-size: 22px;
+	color: rgb(34,50,104);
+}
+
 
 
 
