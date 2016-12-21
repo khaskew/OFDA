@@ -33,7 +33,7 @@ body {
 
 h2 {
 	font-weight: 300;
-	font-size: 30px;
+	font-size: 34px;
 	line-height: 125%;
 	padding-bottom: 10px;
 	letter-spacing: 1.5px;
@@ -86,8 +86,7 @@ h2 {
 	text-align: center;
 }
 
-footer {
-	background-color: rgb(236,236,236); 
+footer { 
 	padding: 35px 0px;
 	text-align: center;
 }
